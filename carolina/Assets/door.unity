@@ -536,8 +536,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.7006895, y: 0.9999997, z: 1}
+  m_Center: {x: -0.14965531, y: 0, z: 0}
 --- !u!33 &155990678
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -655,7 +655,6 @@ GameObject:
   m_Component:
   - component: {fileID: 233554135}
   - component: {fileID: 233554138}
-  - component: {fileID: 233554137}
   - component: {fileID: 233554136}
   m_Layer: 8
   m_Name: top_frame_center_trim
@@ -713,19 +712,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &233554137
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65732057332026010, guid: 6dddf4ad155a64486adfb809acee05f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 233554134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &233554138
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -901,7 +887,6 @@ GameObject:
   m_Component:
   - component: {fileID: 375447132}
   - component: {fileID: 375447131}
-  - component: {fileID: 375447130}
   - component: {fileID: 375447129}
   m_Layer: 8
   m_Name: top_frame_trim
@@ -945,19 +930,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &375447130
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65898786695855412, guid: 6dddf4ad155a64486adfb809acee05f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 375447128}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &375447131
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1073,7 +1045,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 446275395}
-  - component: {fileID: 446275396}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -1100,23 +1071,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &446275396
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 446275394}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 85ccbedd734a947659dbaafb258bed6f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &457824614
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,7 +2196,6 @@ GameObject:
   m_Component:
   - component: {fileID: 980815217}
   - component: {fileID: 980815220}
-  - component: {fileID: 980815219}
   - component: {fileID: 980815218}
   m_Layer: 8
   m_Name: left_frame_trim
@@ -2300,19 +2253,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &980815219
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65955174421531486, guid: 6dddf4ad155a64486adfb809acee05f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 980815216}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &980815220
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2415,7 +2355,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1135901731}
   - component: {fileID: 1135901730}
-  - component: {fileID: 1135901729}
   - component: {fileID: 1135901728}
   m_Layer: 8
   m_Name: top_frame_platform
@@ -2459,19 +2398,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1135901729
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65398597176165292, guid: 6dddf4ad155a64486adfb809acee05f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1135901727}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1135901730
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2559,8 +2485,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.9999999, y: 0.5362676, z: 0.9999994}
+  m_Center: {x: 0, y: 0.23186663, z: 0}
 --- !u!33 &1249061573
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2592,6 +2518,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1267307676}
   - component: {fileID: 1267307677}
+  - component: {fileID: 1267307680}
+  - component: {fileID: 1267307679}
   m_Layer: 0
   m_Name: rotator
   m_TagString: Untagged
@@ -2605,7 +2533,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1267307675}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.4611, y: 0, z: 0.0708}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2630,6 +2558,29 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1267307679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267307675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca10be42f98f496aa3f58cd7e2241ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1267307680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1267307675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1353004, y: 1, z: 1.6277945}
+  m_Center: {x: -0.50061214, y: 0, z: 0.31389725}
 --- !u!1 &1319120494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,7 +3208,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1781707579}
   - component: {fileID: 1781707582}
-  - component: {fileID: 1781707581}
   - component: {fileID: 1781707580}
   m_Layer: 8
   m_Name: left_frame_center_trim
@@ -3315,19 +3265,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1781707581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 65675209863187060, guid: 6dddf4ad155a64486adfb809acee05f7,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1781707578}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1781707582
 MeshFilter:
   m_ObjectHideFlags: 0
