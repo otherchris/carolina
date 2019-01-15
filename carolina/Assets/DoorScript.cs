@@ -11,10 +11,17 @@ public class DoorScript : MonoBehaviour {
 		_animator.SetBool ("open", false);
 	}
 
-	void OnTriggerEnter(Collider other) {
-		Debug.Log(_animator.GetBool("open"));	
-		Debug.Log ("collided");
-		_animator.SetBool ("open", true);
-		Debug.Log(_animator.GetBool("open"));
+	void OnTriggerEnter(Collider other) {	
+		if (other.CompareTag("Player")) {
+			Debug.Log ("entered");
+			_animator.SetBool ("open", true);
+		}
+	}
+
+	void OnTriggerExit(Collider other) {
+		if (other.CompareTag("Player")) {
+			Debug.Log ("exited");
+			_animator.SetBool ("open", false);
+		}
 	}
 }
